@@ -116,3 +116,28 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading-message {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.connection-status {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
